@@ -32,6 +32,7 @@
                     <gpgArguments>
                         <arg>--pinentry-mode</arg>
                         <arg>loopback</arg>
+                        <arg><![CDATA[ --default-key Maven Test <mvn.test@example.com> ]]></arg>
                     </gpgArguments>
                 </configuration>
             </plugin>
