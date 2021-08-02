@@ -29,7 +29,6 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <keyname><![CDATA[ Maven Test <mvn.test@example.com> ]]></keyname>
                     <gpgArguments>
                         <arg>--pinentry-mode</arg>
                         <arg>loopback</arg>
