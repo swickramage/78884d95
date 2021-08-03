@@ -1,0 +1,8 @@
+  
+name: "CodeQL - Security & Quality"
+
+queries:
+  - name: Github Security & Quality
+    uses: security-and-quality
+    exclude:
+      name: java/spring-disabled-csrf-protection

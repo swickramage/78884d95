@@ -13,15 +13,15 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
-    <!-- <distributionManagement>
+    <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
             <url>https://maven.pkg.github.com/swickramage/78884d95</url>
         </repository>
-    </distributionManagement> -->
+    </distributionManagement>
 
-    <!-- <build>
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -38,13 +38,13 @@
                 </executions>
                 <configuration>
                     <gpgArguments>
-                        <arg>pinentry-mode</arg> // should be dashdashpinentry-mode
+                        <arg>pinentry-mode</arg>
                         <arg>loopback</arg>
                     </gpgArguments>
                 </configuration>
             </plugin>
         </plugins>
-    </build> -->
+    </build>
 
 
 </project>
