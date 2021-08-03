@@ -13,13 +13,13 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
-    <distributionManagement>
+    <!-- <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
             <url>https://maven.pkg.github.com/swickramage/78884d95</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement> -->
 
     <!-- <build>
         <plugins>
