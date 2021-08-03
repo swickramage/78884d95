@@ -1,5 +1,5 @@
   
-name: "8x8 CodeQL - Security & Quality"
+name: "CodeQL - Security & Quality"
 
 queries:
   - name: Github Security & Quality
