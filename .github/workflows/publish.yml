@@ -13,15 +13,11 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
-    - name: Install GPG key
-      run: |
-        cat <(echo -e "${{ secrets.GPG_KEY }}") | gpg --batch --import
-        gpg --list-secret-keys --keyid-format LONG
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
     - name: Publish to GitHub Packages Apache Maven
       run: mvn --batch-mode -Dgpg.passphrase=${{ secrets.GPG_PASS }} deploy
       env:
         GITHUB_TOKEN: ${{ github.token }}
     - name: Publish JavaDoc
-      run: mvn javadoc:javadoc -Pjavadoc
+      run: mvn site -Pjavadoc
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
