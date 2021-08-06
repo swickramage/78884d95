@@ -23,3 +23,5 @@ jobs:
       run: mvn --batch-mode -Dgpg.passphrase=${{ secrets.GPG_PASS }} deploy
       env:
         GITHUB_TOKEN: ${{ github.token }}
+    - name: Publish JavaDoc
+      run: mvn javadoc:javadoc -Pjavadoc
