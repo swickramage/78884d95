@@ -24,6 +24,9 @@
     <profiles>
         <profile>
             <id>javadoc</id>
+            <properties>
+                <github.global.server>github</github.global.server>
+            </properties>
             <build>
                 <plugins>
                     <plugin>

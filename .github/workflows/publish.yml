@@ -19,5 +19,3 @@ jobs:
         GITHUB_TOKEN: ${{ github.token }}
     - name: Publish JavaDoc
       run: mvn site -Pjavadoc
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
