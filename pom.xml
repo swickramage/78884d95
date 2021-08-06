@@ -24,31 +24,17 @@
     <profiles>
         <profile>
             <id>javadoc</id>
-            <properties>
-                <github.global.server>github</github.global.server>
-            </properties>
             <build>
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-site-plugin</artifactId>
-                        <version>3.9.1</version>
-                    </plugin>
-                    <plugin>
-                        <groupId>com.github.github</groupId>
-                        <artifactId>site-maven-plugin</artifactId>
-                        <version>0.12</version>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <version>3.3.0</version>
                         <configuration>
-                            <message>Creating site for ${project.version}</message>
+                            <destDir>docs</destDir>
+                            <outputDirectory>${project.build.directory}/../docs</outputDirectory>
+                            <reportOutputDirectory>${project.build.directory}/../docs</reportOutputDirectory>
                         </configuration>
-                        <executions>
-                            <execution>
-                            <goals>
-                                <goal>site</goal>
-                            </goals>
-                            <phase>site</phase>
-                            </execution>
-                        </executions>
                     </plugin>
                 </plugins>
             </build>

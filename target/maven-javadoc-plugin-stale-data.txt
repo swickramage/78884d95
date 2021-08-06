@@ -1,0 +1,55 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'/home/sadeep/repos/78884d95/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/sadeep/repos/78884d95/target/../docs'
+-docencoding
+'UTF-8'
+-doctitle
+'gpg-signature-test 1.1-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/sadeep/repos/78884d95/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'gpg-signature-test 1.1-SNAPSHOT API'
+com.test.models
+'/home/sadeep/repos/78884d95/src/main/java/GpgSignatureTest.java'
+/home/sadeep/repos/78884d95/src/main/java/GpgSignatureTest.java = 1627882777839
+/home/sadeep/repos/78884d95/src/main/java = 1628241947289
+/home/sadeep/repos/78884d95/docs/allclasses.html = 1628242099909
+/home/sadeep/repos/78884d95/docs/GpgSignatureTest.html = 1628242099699
+/home/sadeep/repos/78884d95/docs/allclasses-index.html = 1628242099879
+/home/sadeep/repos/78884d95/docs/deprecated-list.html = 1628242099909
+/home/sadeep/repos/78884d95/docs/package-search-index.js = 1628242099829
+/home/sadeep/repos/78884d95/docs/overview-tree.html = 1628242099809
+/home/sadeep/repos/78884d95/docs/index-all.html = 1628242099859
+/home/sadeep/repos/78884d95/docs/type-search-index.zip = 1628242099849
+/home/sadeep/repos/78884d95/docs/script.js = 1628242099939
+/home/sadeep/repos/78884d95/docs/search.js = 1628242099939
+/home/sadeep/repos/78884d95/docs/allpackages-index.html = 1628242099889
+/home/sadeep/repos/78884d95/docs/member-search-index.zip = 1628242099849
+/home/sadeep/repos/78884d95/docs/member-search-index.js = 1628242099849
+/home/sadeep/repos/78884d95/docs/constant-values.html = 1628242099769
+/home/sadeep/repos/78884d95/docs/element-list = 1628242099709
+/home/sadeep/repos/78884d95/docs/package-use.html = 1628242099799
+/home/sadeep/repos/78884d95/docs/stylesheet.css = 1628242099939
+/home/sadeep/repos/78884d95/docs/package-search-index.zip = 1628242099849
+/home/sadeep/repos/78884d95/docs/type-search-index.js = 1628242099849
+/home/sadeep/repos/78884d95/docs/help-doc.html = 1628242099939
+/home/sadeep/repos/78884d95/docs/index.html = 1628242099919
+/home/sadeep/repos/78884d95/docs/package-summary.html = 1628242099719
+/home/sadeep/repos/78884d95/docs/overview-summary.html = 1628242099919
+/home/sadeep/repos/78884d95/docs/package-tree.html = 1628242099739
