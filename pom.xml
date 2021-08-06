@@ -25,20 +25,17 @@
         <profile>
             <id>javadoc</id>
             <build>
-                <directory>${project.basedir}</directory>
+                <directory>${project.basedir}/docs</directory>
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <version>3.3.0</version>
-                        <configuration>
-                            <destDir>${project.build.directory}/docs</destDir>
-                        </configuration>
                     </plugin>
                 </plugins>
             </build>
         </profile>
-    </profiles
+    </profiles>
 
     <build>
         <plugins>

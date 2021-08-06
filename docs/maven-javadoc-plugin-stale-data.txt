@@ -1,0 +1,52 @@
+@options
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'/home/sadeep/repos/78884d95/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/sadeep/repos/78884d95/docs/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'gpg-signature-test 1.1-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/sadeep/repos/78884d95/docs/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'gpg-signature-test 1.1-SNAPSHOT API'
+'/home/sadeep/repos/78884d95/src/main/java/GpgSignatureTest.java'
+/home/sadeep/repos/78884d95/src/main/java/GpgSignatureTest.java = 1627882777839
+/home/sadeep/repos/78884d95/src/main/java = 1627872089359
+/home/sadeep/repos/78884d95/docs/site/apidocs/allclasses.html = 1628221805109
+/home/sadeep/repos/78884d95/docs/site/apidocs/GpgSignatureTest.html = 1628221805059
+/home/sadeep/repos/78884d95/docs/site/apidocs/allclasses-index.html = 1628221805099
+/home/sadeep/repos/78884d95/docs/site/apidocs/deprecated-list.html = 1628221805109
+/home/sadeep/repos/78884d95/docs/site/apidocs/package-search-index.js = 1628221805089
+/home/sadeep/repos/78884d95/docs/site/apidocs/overview-tree.html = 1628221805079
+/home/sadeep/repos/78884d95/docs/site/apidocs/index-all.html = 1628221805099
+/home/sadeep/repos/78884d95/docs/site/apidocs/type-search-index.zip = 1628221805099
+/home/sadeep/repos/78884d95/docs/site/apidocs/script.js = 1628221805119
+/home/sadeep/repos/78884d95/docs/site/apidocs/search.js = 1628221805119
+/home/sadeep/repos/78884d95/docs/site/apidocs/allpackages-index.html = 1628221805109
+/home/sadeep/repos/78884d95/docs/site/apidocs/member-search-index.zip = 1628221805099
+/home/sadeep/repos/78884d95/docs/site/apidocs/member-search-index.js = 1628221805099
+/home/sadeep/repos/78884d95/docs/site/apidocs/constant-values.html = 1628221805069
+/home/sadeep/repos/78884d95/docs/site/apidocs/element-list = 1628221805059
+/home/sadeep/repos/78884d95/docs/site/apidocs/package-use.html = 1628221805079
+/home/sadeep/repos/78884d95/docs/site/apidocs/stylesheet.css = 1628221805119
+/home/sadeep/repos/78884d95/docs/site/apidocs/package-search-index.zip = 1628221805099
+/home/sadeep/repos/78884d95/docs/site/apidocs/type-search-index.js = 1628221805099
+/home/sadeep/repos/78884d95/docs/site/apidocs/help-doc.html = 1628221805119
+/home/sadeep/repos/78884d95/docs/site/apidocs/index.html = 1628221805119
+/home/sadeep/repos/78884d95/docs/site/apidocs/package-summary.html = 1628221805059
+/home/sadeep/repos/78884d95/docs/site/apidocs/package-tree.html = 1628221805069
