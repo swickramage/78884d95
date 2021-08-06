@@ -25,12 +25,16 @@
         <profile>
             <id>javadoc</id>
             <build>
-                <directory>${project.basedir}/docs</directory>
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <version>3.3.0</version>
+                        <configuration>
+                            <destDir>docs</destDir>
+                            <outputDirectory>${project.build.directory}/../docs</outputDirectory>
+                            <reportOutputDirectory>${project.build.directory}/../docs</reportOutputDirectory>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>
@@ -39,6 +43,16 @@
 
     <build>
         <plugins>
+            <!-- <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                     <destDir>docs</destDir>
+                    <outputDirectory>${project.parent.basedir}/../docs</outputDirectory>
+                    <reportOutputDirectory>${project.build.directory}/../docs</reportOutputDirectory>
+                </configuration>
+            </plugin> -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
